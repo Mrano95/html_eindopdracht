@@ -29,7 +29,17 @@
 }
 
 .card_bottom{
+	display: none;
+	height: auto;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	transition: 1.4s;
+}
 
+.card:hover .card_bottom{
+	display: block;
+	height: auto;
+	transition: 1.4s;
 }
 
 #cardBg1{
