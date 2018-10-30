@@ -1,0 +1,233 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.content
+{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#menu_container
+{
+	
+}
+
+#content_container
+{
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+	background-color: lightgrey;
+}
+
+body
+{
+	background-color:grey;
+}
+
+#menu{
+    width: 100%;
+    min-height: 75px;
+    border-bottom: 1px solid black;
+	background-color:white;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#menu li{
+    height: auto;
+    width: 100px;
+    padding: 12px;
+    margin-top: 7px;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+}
+
+#menu a{
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #99bbff;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#menu a:hover{
+    border-color: #0066ff;
+    transition: 0.4s;
+}
+
+.section
+{
+	background-color: lightgrey;
+	padding: 20px;
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	height: auto;
+	overflow: auto;
+	
+}
+
+h1,h2,h3
+{
+	font-family: "PT sans", sans-serif;
+	margin-bottom: 10px;
+}
+
+
+p, li 
+{
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+#profiel
+{
+	float: right;
+	width: 100px ;
+	height: 100px;
+	margin: 10px;
+}
+
+.hoverbox img ,.hoverboxmid img
+{
+	width: 500px;
+	height: 330px;
+	border-radius:10px 10px 10px 10px ;
+}
+.hoverbox
+{
+	width: 500px;
+	height: 310px;
+	float:left;
+	margin:22px;
+	position: relative;
+	display: inline-block;
+	
+	
+}
+
+.hoverbox-top 
+{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 470px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	padding: 15px;
+	transition: all 0.4s ease-in-out 0s;
+	border-radius:10px 10px 10px 10px ;
+}
+
+.hvrbox-layer_bottom 
+{
+	display: block;
+}
+
+.hoverbox:hover .hoverbox-top,  .hoverboxmid:hover .hoverbox-top
+{
+	opacity: 1;
+}
+
+.hoverbox-text 
+{
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.hoverboxmid
+{
+	width: 500px;
+	height: 310px;
+	display: inline-block;
+	position: relative;
+	float:left;
+	margin-left: 294px;
+	margin-top:22px;
+	margin-bottom:22px;
+}
+
+iframe
+{
+	width:1100px;
+	height:330px;
+	border:none;
+}
+
+input, textarea 
+{
+  width: 250px;
+}
+
+label {
+  display: block;
+  float: left;
+  line-height: 1.6;
+  margin-right: 10px;
+  text-align: right;
+  width: 120px;
+}
+
+input, textarea {
+  background: #ddd;
+  font: 1em Arial, Helvetica;
+  padding: 1px 3px;
+  width: 250px;
+}
+
+button {
+
+  cursor: pointer;
+  margin-left: 130px;
+  margin-bottom: 2px;
+  padding:5px;
+  border-radius: 5px 5px 5px 5px;
+  
+}
+form ol, form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+form li {
+  clear: both;
+  margin: 0 0 .75em;
+  padding: 0;
+}
+
+legend 
+{
+  line-height: 2.0;
+
+}
+
+form, fieldset, legend {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
