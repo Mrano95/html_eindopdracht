@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +9,8 @@ body{
     background-color: grey;
 }
 
+=======
+>>>>>>> 51da5123b943fd4bb3dcec06c8212236b2731028
 h1{
     /*color: #2196F3;*/
     font-size: 3.56rem;
@@ -24,8 +27,13 @@ h1{
 .section{
 	background-color: lightgrey;
 	height: auto;
+<<<<<<< HEAD
     padding: 10px 10px 40px 10px;
 	margin-bottom: 40px;
+=======
+  padding: 10px 10px 40px 10px;
+	margin-top: 40px;
+>>>>>>> 51da5123b943fd4bb3dcec06c8212236b2731028
 }
 
 .content{
@@ -36,6 +44,7 @@ h1{
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
+<<<<<<< HEAD
 
 #hobby .content{
 	justify-content: center;
@@ -80,3 +89,5 @@ h1{
     transition: 0.4s;
 }
 
+=======
+>>>>>>> 51da5123b943fd4bb3dcec06c8212236b2731028
