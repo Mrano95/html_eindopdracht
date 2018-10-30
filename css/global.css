@@ -1,9 +1,13 @@
+/*
+This file contains, and only contains shared styles across pages.
+*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Make flexbox no floating/clearfixing */
+/* Clearfix to prevent divs collapsing, whille floating it's child elements */
 .float-row {
   overflow: auto;
   width: 100%;
@@ -14,7 +18,9 @@
   clear: both;
   display: table;
 }
+/* END Clearfix */
 
+/* Columns to use within a .float-row */
 .float-2 {
   width: 50%;
   float: left;
@@ -24,10 +30,7 @@
   width: 33%;
   float: left;
 }
-
-.page-wrapper {
-  padding-bottom: 25px;
-}
+/* END Columns */
 
 h1, h2 {
   font-family: "PT sans", sans-serif;
@@ -38,12 +41,7 @@ p, li {
   font-family: "Noto Sans", sans-serif;
 }
 
-#body h2,
-#body p {
-  text-align: center;
-}
-
-.menu-wrapper{
+.menu-wrapper {
     width: 100%;
     min-height: 75px;
     border-bottom: 1px solid black;
@@ -81,37 +79,8 @@ p, li {
     transition: 0.4s;
 }
 
-.page-wrapper {
-  background-color: grey;
-}
-
-.page {
+.page-content {
   margin: 0 auto;
   width: 1140px;
   background-color: lightgrey;
-}
-
-header {
-  background-image: url('../images/stairs.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 350px;
-}
-
-header h1 {
-  padding: 25px;
-  color: white;
-}
-
-article, .introduction {
-  padding: 25px;
-}
-
-article img {
-  border-radius: 50%;
-  width: 200px;
-  margin: 0 auto;
-  display: block;
-  border: 2px solid #D78248;
-  margin-bottom: 15px;
 }

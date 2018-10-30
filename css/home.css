@@ -1,0 +1,33 @@
+#home h2,
+#home p {
+  text-align: center;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+header {
+  background-image: url('../images/stairs.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+header h1 {
+  padding: 25px;
+  color: white;
+}
+
+article, .introduction {
+  padding: 25px;
+}
+
+article img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #D78248;
+  margin-bottom: 15px;
+}
