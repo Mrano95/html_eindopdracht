@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+  font-family: "PT sans", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+}
+
+.textie
+{
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  padding: 10px 10px;
+}
+
+p, li
+{
+  font-family: "Noto Sans", sans-serif;
+}
+
+.formp
+{
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px 0px 0px 20px;
+}
+
+header {
+  background-image: url('../../bannerniels.png');
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+header h1 {
+  padding: 10px 10px;
+  color: white;
+}
+
+.menu-wrapper{
+    width: 100%;
+    min-height: 75px;
+    border-bottom: 1px solid black;
+}
+
+.menu-wrapper ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.menu-wrapper li{
+    height: auto;
+    width: 100px;
+    padding: 12px;
+    margin-top: 7px;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+}
+
+.menu-wrapper a{
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #99bbff;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.page {
+  background-color: beige;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+img {
+  width: 100%x;
+  margin: 0 auto;
+  margin: 10px 10px;
+  width: 208px;
+  height: 208px;
+  float: left;
+}
+
+form
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 0px 20px 0px 10px;
+  width: 450px;
+}
+
+input
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 0px 0px 0px 20px;
+}
+
+textarea
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 20px 0px 0px 20px;
+  padding: 0px 0px 50px 0px;
+  display: inline-block;
+}
+
+body
+{
+  background-color: white;
+}
+
+.block
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 200px;
+}
