@@ -29,7 +29,7 @@ p, li
 }
 
 header {
-  background-image: url('images/niels/bannerniels.png');
+  background-image: url('../images/niels/bannerniels.png');
   background-position: center;
   background-size: cover;
   height: 350px;
