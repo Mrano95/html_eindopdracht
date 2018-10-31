@@ -25,7 +25,7 @@ p, li
 .formp
 {
   font-family: "Noto Sans", sans-serif;
-  margin: 0px 0px 0px 20px;
+  margin: 20px 0px 5px 20px;
 }
 
 header {
@@ -117,7 +117,7 @@ textarea
 
 body
 {
-  background-color: white;
+  background-color:  darkgrey;
 }
 
 .block
@@ -126,4 +126,15 @@ body
   border-color: black;
   border-width: 1px;
   margin: 200px;
+}
+
+#verzenden
+{
+  margin: 20px 20px 20px 20px;
+}
+#footer
+{
+  background-color: lightgrey;
+  height: 30px;
+  margin: 15px 0px 0px 0px;
 }
