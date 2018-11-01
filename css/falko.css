@@ -1,0 +1,36 @@
+header {
+  background-image: url('../images/macbook.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+article img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #D78248;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  padding: 25px;
+  color: white;
+}
+
+article {
+  padding: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+article iframe {
+  width: 100%;
+}
+
+form input {
+  display: block;
+}
