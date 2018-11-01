@@ -1,9 +1,3 @@
-* 
-{
-    margin: 0;
-    padding: 0;
-}
-
 .content
 {
     width: 80%;
@@ -29,45 +23,6 @@ body
 	background-color:grey;
 }
 
-#menu{
-    width: 100%;
-    min-height: 75px;
-    border-bottom: 1px solid black;
-	background-color:white;
-}
-
-#menu ul{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-#menu li{
-    height: auto;
-    width: 100px;
-    padding: 12px;
-    margin-top: 7px;
-    list-style-type: none;
-    display: flex;
-    flex-grow: 1;
-}
-
-#menu a{
-    margin: 0 auto;
-    margin-top: 5px;
-    padding: 5px 10px 5px 10px;
-    border-bottom: 1px solid #99bbff;
-    text-decoration: none;
-    color: black;
-    display: block;
-}
-
-#menu a:hover{
-    border-color: #0066ff;
-    transition: 0.4s;
-}
-
 .section
 {
 	background-color: lightgrey;
@@ -80,18 +35,11 @@ body
 	
 }
 
-h1,h2,h3
+h3
 {
 	font-family: "PT sans", sans-serif;
 	margin-bottom: 10px;
 }
-
-
-p, li 
-{
-  font-family: "Noto Sans", sans-serif;
-}
-
 
 #profiel
 {
