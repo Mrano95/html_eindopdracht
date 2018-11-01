@@ -125,7 +125,8 @@ iframe
 
 input, textarea 
 {
-  width: 250px;
+	width: 250px;
+	resize: none;
 }
 
 label {
@@ -175,6 +176,8 @@ form, fieldset, legend {
   margin: 0;
   padding: 0;
 }
+
+
 
 
 
