@@ -28,7 +28,7 @@
         </header>
         <div class="introduction">
           <h2>Thom Roorda</h2>
-          <p>Welkom op de pagina van Thom Roorda! Hier vind je mijn hobbies.</p>
+          <p>Welkom op de pagina van Thom Roorda! Ik ben 25jaar oud en kom uit Bedum. Ik ben geboren in Sneek. Ik heba voor deze opleiding gewerkt aan de customer support projecten van Tele2. Hier onder vind je mijn hobbies.</p>
         </div>
         <div class="float-row">
           <div class="float-3">
@@ -64,27 +64,18 @@
           <p>Door de week spendeer ik veel tijd op school. Ik volg de opleiding informatica aan NHL-Stenden in Emmen. In het weekend ben ik vaak thuis, op stap of bij mijn vriendin. </p>
 	      <h2>Stel me een vraag!</h2>
 		<div class="container">
-		<form action="action_page.php">
-
-		<label for="fname">Voornaam</label>
-		<input type="text" id="fname" name="firstname" placeholder="je naam..">
-
-		<label for="lname">Achternaam</label>
-		<input type="text" id="lname" name="lastname" placeholder="je achternaam..">
-
-		<label for="country">Land</label>
-		<select id="country" name="country">
-		<option value="nederland">Nederland</option>
-		<option value="engeland">Engeland</option>
-		<option value="usa">USA</option>
-		</select>
-
-		<label for="subject">Vraag</label>
-		<textarea id="subject" name="subject" placeholder="Stel je vraag.." ></textarea>
-
-		<input type="submit" value="Submit">
-
-		</form>
+		
+			<form id="contact-form" action="#" method="post">
+				<ol>
+					<li><label for="contact-name">Naam:</label>
+						<input type="text" id="contact-name" name="name"/></li>
+					<li><label for="contact-email">Email:</label>
+						<input type="text" id="contact-email" name="email"/></li>
+					<li><label for="contact-message">Vraag:</label>
+						<textarea id="contact-message" name="message" rows="4" cols="30" style="resize: none;"></textarea></li>
+					</ol>
+				<button type="submit">vertuur</button>
+			</form>
 		</div>
 		</div>
         <div class="float-row">
