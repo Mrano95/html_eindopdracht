@@ -45,6 +45,7 @@ p, li {
     width: 100%;
     min-height: 75px;
     border-bottom: 1px solid black;
+    background-color: white;
 }
 
 .menu-wrapper ul{

@@ -68,8 +68,8 @@
 .card:hover .card_bottom{
 	display: block;
 	height: auto;
-  background-color: black;
 }
+
 
 #cardBg1{
 	background-image: url(../images/cards/skate.png);
