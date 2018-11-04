@@ -5,6 +5,10 @@ header {
   height: 350px;
 }
 
+.bg-grey {
+  background-color: grey;
+}
+
 article img {
   border-radius: 50%;
   width: 200px;
@@ -32,5 +36,11 @@ article iframe {
 }
 
 form input {
+  display: block;
+}
+
+.hobbies img {
+  margin: 0 auto;
+  height: 80px;
   display: block;
 }

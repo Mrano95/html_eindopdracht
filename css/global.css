@@ -32,13 +32,14 @@ This file contains, and only contains shared styles across pages.
 }
 /* END Columns */
 
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 h1, h2 {
   font-family: "PT sans", sans-serif;
   margin-bottom: 10px;
-}
-
-p, li {
-  font-family: "Noto Sans", sans-serif;
 }
 
 .menu-wrapper {
