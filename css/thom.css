@@ -1,81 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Make flexbox no floating/clearfixing */
-.float-row {
-  overflow: auto;
-  width: 100%;
-}
-
-.float-row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.float-2 {
-  width: 50%;
-  float: left;
-}
-
-.float-3 {
-  width: 33%;
-  float: left;
-}
-
-.page-wrapper {
-  padding-bottom: 25px;
-}
-
-h1, h2 {
-  font-family: "PT sans", sans-serif;
-  margin-bottom: 10px;
-}
-
-p, li {
-  font-family: "Noto Sans", sans-serif;
-}
-
 #body h2,
 #body p {
   text-align: center;
 }
-
-.menu-wrapper{
-    width: 100%;
-    min-height: 75px;
-    border-bottom: 1px solid black;
-}
-
-.menu-wrapper ul{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.menu-wrapper li{
-    height: auto;
-    width: 100px;
-    padding: 12px;
-    margin-top: 7px;
-    list-style-type: none;
-    display: flex;
-    flex-grow: 1;
-}
-
-.menu-wrapper a{
-    margin: 0 auto;
-    margin-top: 5px;
-    padding: 5px 10px 5px 10px;
-    border-bottom: 1px solid #99bbff;
-    text-decoration: none;
-    color: black;
-    display: block;
-}
-
 
 .page-wrapper {
   background-color: grey;
@@ -123,7 +49,11 @@ form li {
   padding: 0;
 }
 
-legend 
+iframe {
+  width: 49%;
+}
+
+legend
 {
   line-height: 2.0;
 

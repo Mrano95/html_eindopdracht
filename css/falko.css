@@ -9,7 +9,7 @@ header {
   background-color: grey;
 }
 
-article img {
+.article img {
   border-radius: 50%;
   width: 200px;
   margin: 0 auto;
@@ -23,7 +23,7 @@ header h1 {
   color: white;
 }
 
-article {
+.article {
   padding: 25px;
 }
 
@@ -31,12 +31,25 @@ article {
   text-align: center;
 }
 
-article iframe {
+.article iframe {
   width: 100%;
+  border: none;
 }
 
-form input {
+form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
   display: block;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  max-width: 250px;
+  min-width: 250px;
 }
 
 .hobbies img {
